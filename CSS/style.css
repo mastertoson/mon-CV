@@ -1,7 +1,7 @@
 /* general */
 html
 {
-    background-image:url(/image/background_bureau.jpg) ;
+    background-image:url(../image/background_bureau.jpg) ;
     background-repeat: no-repeat;
 }
 body
