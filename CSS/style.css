@@ -1,4 +1,9 @@
 /* general */
+html
+{
+    background-image:url(/image/background_bureau.jpg) ;
+    background-repeat: no-repeat;
+}
 body
 {
 font-family: Arial, Helvetica, sans-serif;
@@ -16,9 +21,12 @@ opacity: 0.9;
     color: rgb(165, 99, 159);
     font-size: 2em;
     text-align: center;
+    clear:both;
 }
 .heading2
 {
+    
+    text-align: center;
     color: rgb(135, 110, 182);
     font-size: 1.5em;
 }
@@ -59,6 +67,9 @@ opacity: 0.9;
 .grid
 {
     display: flex;
+    justify-content:space-around;
+  
+   
     
 }
 .hardware
@@ -66,35 +77,46 @@ opacity: 0.9;
     padding: 10px;
     border: 3px rgb(126, 126, 197) solid;
     border-radius: 6px;
-    box-shadow: 3px 3px 10px;
+    box-shadow: 0px 0px 20px;
     width: 300px;
-    margin: auto;
+    height: 300px;
+    
+    
 }
 .software
 {
     padding: 10px;
     border: 3px rgb(126, 126, 197) solid;
     border-radius: 6px;
-    box-shadow: 3px 3px 10px;
+    box-shadow: 0px 0px 20px;
     width: 300px;
-    margin: auto;
+    height: 300px;
+    
+    
 }
 /* smash */
 .smash
 {
-
+    padding: 10px;
+    border: 3px rgb(236, 238, 111) solid;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgb(236, 238, 111);
+    height: 300px;
+    width: 300px;
+    margin: auto;
 }
 .headingsmash
 {
+    text-align: center;
     color: rgb(185, 209, 47);
     font-size: 1.5em;
 }
 .contentsmash
 {
     color: rgb(230, 107, 107);
-    
-    font-weight: bold;
-    font-size: 1em;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
 }
 /* section formation */
 .formation
