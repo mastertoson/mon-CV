@@ -1,7 +1,7 @@
 /* general */
 html
 {
-    background-image:url(image/background_bureau.jpg) ;
+    background-image:url(/image/background_bureau.jpg) ;
     background-repeat: no-repeat;
 }
 body
@@ -9,7 +9,7 @@ body
 font-family: Arial, Helvetica, sans-serif;
 text-align: justify;
 /*background-color:  rgb(30, 30, 30);*/
-background-image: url(image/gris.jpg);
+background-image: url(/image/gris.jpg);
 opacity: 0.9;
 
 }
