@@ -2,7 +2,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   /*test background (pas ouf avec les couleurs de font)*/
-  background-image: url("image/background_flat.png");
+  background-image: url("../image/background_flat.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -11,7 +11,7 @@ html {
 
 body {
   /*background-color:  rgb(30, 30, 30);*/
-  background-image: url(image/gris.jpg);
+  background-image: url(../image/gris.jpg);
   opacity: 0.9;
 
   color: rgb(104, 151, 155);
