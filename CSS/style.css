@@ -1,72 +1,133 @@
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
-  /*test background (pas ouf avec les couleurs de font)*/
-  background-image: url("../image/background_flat.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
+/* general */
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+/*background-color:  rgb(30, 30, 30);*/
+background-image: url(../image/gris.jpg);
+opacity: 0.9;
 
-body {
-  /*background-color:  rgb(30, 30, 30);*/
-  background-image: url(../image/gris.jpg);
-  opacity: 0.9;
-
-  color: rgb(104, 151, 155);
-  font-weight: bold;
-  font-size: 1em;
-}
-
-h1 {
-  text-align: left;
-  font-size: 2.5em;
-}
-h2 {
-  color: rgb(165, 99, 159);
-  font-size: 2em;
-  text-align: center;
-}
-h3 {
-  font-size: 1.5em;
-  text-align: center;
-}
-h4 {
-  color: rgb(135, 110, 182);
-  font-size: 1.5em;
-}
-.smash {
-  color: rgb(185, 209, 47);
-  font-size: 1.5em;
-}
-.ganon {
-  color: rgb(230, 107, 107);
-  font-size: 1em;
 }
 .image {
-  float: right;
+    float: right;
+  }
+.heading
+{
+    color: rgb(165, 99, 159);
+    font-size: 2em;
+    text-align: center;
 }
-.exp {
-  clear: both;
+.heading2
+{
+    color: rgb(135, 110, 182);
+    font-size: 1.5em;
 }
-.dev {
-  text-align: left;
+.content
+{
+    color: rgb(104, 151, 155);
+    font-weight: bold;
+    font-size: 1em;
 }
-a {
-  color: rgb(231, 75, 122);
+
+
+/* header */
+.nom
+{
+    text-align: left;
+    color: rgb(104, 151, 155);
+    font-weight: bold;
+    font-size: 2.5em;
 }
-a:hover {
-  text-decoration: underline;
-  color: rgb(255, 248, 155);
-  font-weight: bolder;
+.dev
+{
+    text-align: left;
+    color: rgb(104, 151, 155);
+    font-weight: bold;
+    font-size: 1.5em;
+    
 }
+/* section experience */
+.experience
+{
+
+}
+/* section competence */
+.competence
+{
+
+}
+.grid
+{
+    display: flex;
+    
+}
+.hardware
+{
+    padding: 10px;
+    border: 3px rgb(126, 126, 197) solid;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px;
+    width: 300px;
+    margin: auto;
+}
+.software
+{
+    padding: 10px;
+    border: 3px rgb(126, 126, 197) solid;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px;
+    width: 300px;
+    margin: auto;
+}
+/* smash */
+.smash
+{
+
+}
+.headingsmash
+{
+    color: rgb(185, 209, 47);
+    font-size: 1.5em;
+}
+.contentsmash
+{
+    color: rgb(230, 107, 107);
+    
+    font-weight: bold;
+    font-size: 1em;
+}
+/* section formation */
+.formation
+{
+
+}
+/* footer */
 footer
- {
-  text-align: center;
-  border: 3px rgb(126, 126, 197) solid;
-  border-radius: 6px;
-  box-shadow: 3px 3px 10px;
-  width: 300px;
-  margin: auto;
+{
+    text-align: center;
+    border: 3px rgb(126, 126, 197) solid;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px;
+    width: 300px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(104, 151, 155);
 }
+a 
+{
+    color: rgb(231, 75, 122);
+}
+a:hover 
+{
+    text-decoration: underline;
+    color: rgb(255, 248, 155);
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
