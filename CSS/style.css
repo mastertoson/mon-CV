@@ -12,11 +12,12 @@ text-align: justify;
 background-image:url(../image/gris.jpg);
 opacity: 0.9;
 margin-top: 12%;
+margin-left: 0%;
 padding:auto;
 }
 .image {
     float: right;
-    max-height: 120px;
+    max-height: 80px;
   }
 .heading
 {
@@ -41,19 +42,16 @@ padding:auto;
 
 
 /* header */
-.nom,.dev
-{
-display: flex;
-justify-content: center;
 
-}
 .nom
 {
     text-align: left;
     color: rgb(118, 183, 189);
     font-weight: bold;
     font-size: 2.5em;
-    
+    position: absolute;
+    left:0%;
+    top: -17px;
 }
 .dev
 {
@@ -62,7 +60,9 @@ justify-content: center;
     font-weight: bold;
     font-size: 1.5em;
     align-self: center;
-    
+    position: absolute;
+    left: 40%;
+    top: x;
     
     
 }
@@ -72,7 +72,7 @@ header
     background-position: 0px 800px;
     background-size: 100%;
     width: 100%;
-    height: 120px;
+    height: 80px;
     position:fixed;
     top: 0px;
 
