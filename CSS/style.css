@@ -64,7 +64,7 @@ padding:auto;
 }
 header
 {
-    background-image: url(/image/background_bureau.jpg);
+    background-image: url(../image/background_bureau.jpg);
     background-position: 0px 0px;
     background-size: 100%;
     width: 100%;
