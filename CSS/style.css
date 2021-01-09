@@ -267,12 +267,12 @@ a:hover img
   }
   .hardware
   {
-    padding: 10px;
-  
+    padding-bottom: 40px;
     height: 300px;
     width: 300px;
     margin: auto;
     margin-top: 30px;
+    
   }
   .smah
   {
@@ -379,7 +379,85 @@ a:hover img
 }
   /** footer **/
 }
-@media screen and (max-width: 280px)
-{
 
+@media screen and (max-width: 350px)
+{
+/** header **/
+  .nom
+  {
+    text-align: left;
+    color: rgb(118, 183, 189);
+    font-weight: bold;
+    font-size: 2.5em;
+    position: absolute;
+    left:0%;
+    top: -17px;
+  }
+  .dev
+  {
+    display: flex;
+    text-align: left;
+    color: rgb(118, 183, 189);
+    font-weight: bold;
+    font-size: 1.5em;
+    align-self: left;
+    position: absolute;
+    left: 0%;
+    top: 25%;
+    
+  }
+  /** header **/
+
+
+  /** body **/
+  .software
+  {
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .hardware
+  {
+    
+    padding-bottom: 50px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  /** body **/
+
+
+  /** footer **/
+  .copyright
+  {
+    margin-top: 200px;
+    text-align: start;
+    color: rgb(255, 255, 255);   
+  }
+  .reseaux
+{
+    
+    padding-top: 4px;
+    text-align: center;
+    border-left: 5px rgb(126, 126, 197) solid;
+    border-right: 5px rgb(126, 126, 197) solid;
+    border-top: 5px rgb(126, 126, 197) solid;
+    border-bottom: 5px rgb(126, 126, 197) solid;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px;
+    width: 150px;
+    color: rgb(104, 151, 155);
+    position:fixed;
+    bottom: 1%;
+    right: -28px;
+}
+.link
+{
+    width: 30px;
+    height: 30px;
+}
+  /** footer **/
 }
